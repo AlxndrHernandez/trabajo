@@ -1,0 +1,199 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+/* Formulario */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to  top,  #000000, #000000, #08586e, #069eb3, #12e4eb);
+    background-position: top left, top left;
+    background-repeat: repeat-x, repeat;
+    background-size: 100% 30em, auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    color: #696969;
+    font-weight: 300;
+    line-height: 2.25em;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #374553;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #09b2b8fb;
+    border:  #09b2b8fb 5px solid;
+	border-radius: 20px;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #09b2b8fb;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #fffffffb;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: #0ed1dc;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #09b2b8fb;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  /* Button */
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  button,
+  .button {
+      -moz-transition: background-color .25s ease-in-out;
+      -webkit-transition: background-color .25s ease-in-out;
+      -ms-transition: background-color .25s ease-in-out;
+      transition: background-color .25s ease-in-out;
+      -webkit-appearance: none;
+      position: relative;
+      display: inline-block;
+      background: #09b2b8fb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 800;
+      outline: 0;
+      border: 0;
+      cursor: pointer;
+      font-size: 1.35em;
+      padding: 0.8em 1.5em;
+      
+  }
+
+      input[type="button"].icon:before,
+      input[type="submit"].icon:before,
+      input[type="reset"].icon:before,
+      button.icon:before,
+      .button.icon:before {
+          position: relative;
+          margin-right: 0.5em;
+          top: 0.05em;
+      }
+
+      input[type="button"]:hover,
+      input[type="submit"]:hover,
+      input[type="reset"]:hover,
+      button:hover,
+      .button:hover {
+          background: #ffc400;
+      }
+
+      input[type="button"]:active,
+      input[type="submit"]:active,
+      input[type="reset"]:active,
+      button:active,
+      .button:active {
+          background: #20b0e5;
+      }
+
+      input[type="button"].alt,
+      input[type="submit"].alt,
+      input[type="reset"].alt,
+      button.alt,
+      .button.alt {
+          background: #f1f1f1;
+          background: rgba(0, 0, 0, 0.05);
+          color: #444;
+      }
+
+          input[type="button"].alt:hover,
+          input[type="submit"].alt:hover,
+          input[type="reset"].alt:hover,
+          button.alt:hover,
+          .button.alt:hover {
+              background: #e8e8e8;
+              background: rgba(0, 0, 0, 0.085);
+          }
+
+          input[type="button"].alt:active,
+          input[type="submit"].alt:active,
+          input[type="reset"].alt:active,
+          button.alt:active,
+          .button.alt:active {
+              background: #e4e4e4;
+              background: rgba(0, 0, 0, 0.15);
+          }
+
+      input[type="button"].large,
+      input[type="submit"].large,
+      input[type="reset"].large,
+      button.large,
+      .button.large {
+          font-size: 2.25em;
+          padding: 0.8em 0.9em;
+      }
+      /* Logo */
+
+	#logo {
+		display: inline-block;
+	}
+
+		#logo h1 {
+			
+			border:  #ffffff 5px solid;
+			color: rgb(255, 255, 255);
+			border-radius: 50px;
+			font-family: 'Bebas Neue', cursive;
+			font-weight: 400;
+			padding: 0.25em 0.2em 0.25em 0.2em;
+			font-size: 3.25em;
+			letter-spacing: 0.25em;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		#logo span {
+			
+			font-family: 'Dancing Script', cursive;
+			font-weight: 800;
+			line-height: 0.5em;
+			letter-spacing: 0.025em;
+			font-size: 2em;
+			vertical-align: middle;
+			margin: 0 0 0 10.5em;
+		}
